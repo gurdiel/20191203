@@ -1,5 +1,7 @@
 package fp.daw.examen;
 
+import java.util.Scanner;
+
 public class Ejercicio3 {
 
 	/* 3 puntos
@@ -14,6 +16,13 @@ public class Ejercicio3 {
 	
 	public static void main(String[] args) {
 		
+		Scanner t = new  Scanner (System.in);
+		System.out.println("Introduzca numero.");
+		int numero=t.nextInt();
+		
+		if(numero%2==0) {
+			
+		}
 	}
 
 }
